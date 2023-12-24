@@ -1,6 +1,6 @@
 {
-  "name": "Chrome Logo Example",
-  "short_name": "Chrome Logo Example",
+  "name": "WebApp Example",
+  "short_name": "WebApp Example",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
