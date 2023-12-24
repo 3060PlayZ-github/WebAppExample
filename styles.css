@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+[data-tab-content] {
+  display: none;
+}
+
+     h2 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+    }
+
+    h1 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+    }
+
+    h4 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+    }
+
+    h3 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+    }
+
+    h5 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+    }
+
+    a[href] {
+
+
+color: #ff0000;
+font-size: 20px;
+    }
+
+    h5 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+    }
+
+    h6 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+    }
+
+    .center {
+            text-align: center;
+            border: 3px solid green;
+    }
+
+    span {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 20px;
+
+    }
+     a {
+   text-decoration:none;
+}   
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}  
+
+ #beta {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+  color: red;
+  font-size: 1px;
+}   
+    h9 {
+        color: white;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 10px;
+    }
+
+.active[data-tab-content] {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgb(255, 255, 255)
+  background-image:none;
+  background-color:transparent;
+}
+
+.tab {
+  color: rgb(201, 201, 201);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.tab.active {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.tab:hover {
+  color: rgb(255, 255, 255);
+  font-family: "JetBrains Mono", sans-serif;
+
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav_tabs ul {
+  background-image:none;
+  background-color:transparent;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+span {
+  color: rgb(201, 201, 201);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+  .tabs {
+    background-color: #35495e; /* Change the background color for the entire tab area */
+    padding: 10px; /* Add padding to control the space around the tab area */
+    border-radius: 10px; /* Round the corners of the tab area */
+  }
+
+  .tabs li {
+    display: inline; /* Display the tabs in a row */
+    padding: 10px; /* Adjust the padding around each tab */
+    margin: 5px; /* Add margin between each tab */
+    background-color: #2c3a4b; /* Change the background color of the tabs */
+    border-radius: 5px; /* Round the corners of the tabs */
+    cursor: pointer; /* Change cursor style on hover */
+  }
+
+  .tabs li.active {
+    /* Style for the active tab */
+    background-color: #35495e; /* Change the active tab's background color */
+    color: white; /* Change the text color of the active tab */
+  }
+
+  .tab {
+    display: inline-block; /* Display the social media links in a row */
+    padding: 10px; /* Adjust the padding around each link */
+    margin: 5px; /* Add margin between each link */
+    background-color: #2c3a4b; /* Change the background color of the links */
+    border-radius: 5px; /* Round the corners of the links */
+    cursor: pointer; /* Change cursor style on hover */
+  }
+
+  .tab a {
+    text-decoration: none; /* Remove the underline from the anchor tags */
+    color: white; /* Set the text color of the links */
+  }
+
+  .tab a:hover {
+    text-decoration: underline; /* Underline the links on hover */
+  }
+

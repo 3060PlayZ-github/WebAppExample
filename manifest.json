@@ -1,0 +1,17 @@
+{
+  "name": "Chrome Logo Example",
+  "short_name": "Chrome Logo Example",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3367D6",
+  "icons": [
+
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+    // Add more icons with different sizes
+  ]
+}
